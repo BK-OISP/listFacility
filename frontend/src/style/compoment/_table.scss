@@ -1,0 +1,34 @@
+.table {
+  background-color: #fff;
+  color: $main-color;
+  margin-bottom: 10px;
+  @extend .border-radius;
+  overflow: auto;
+
+  .table {
+    thead {
+      th {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.table {
+  tr,
+  th,
+  td {
+    text-align: center;
+  }
+  td:nth-child(2) {
+    text-align: left;
+  }
+  tr {
+    th {
+      text-align: center;
+    }
+  }
+  .material-icons:hover {
+    cursor: pointer;
+  }
+}

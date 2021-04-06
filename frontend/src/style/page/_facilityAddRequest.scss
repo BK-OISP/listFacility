@@ -1,0 +1,26 @@
+.fm-rq {
+  // @extend .border-radius;
+  background-color: $main-bg-color;
+
+  &__wrapper {
+    margin: 10px auto;
+  }
+
+  .img {
+    &__preview {
+      width: 150px;
+      height: 150px;
+      margin: 1rem;
+    }
+  }
+
+  .panel {
+    background-color: green;
+    .ant-collapse-header {
+      border-bottom: 1px solid #d9d9d9;
+    }
+    &__content {
+      background-color: red;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.counter {
+  padding: 16px;
+  margin: 10px 0;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // max-width: 24%;
+  span {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  h3 {
+    margin: 20px;
+    font-size: 1.17rem;
+    color: #fff;
+  }
+}

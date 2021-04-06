@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  box-sizing: border-box;
+  // scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: $main-bg-color;
+  color: $main-color;
+  line-height: unset;
+  .row {
+    margin-right: -10px;
+    margin-left: -5px;
+  }
+}
+
+.wrapper {
+  line-height: 1.5;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+.overlay-scrollbar::-webkit-scrollbar {
+  width: 9px;
+  height: 9px;
+  display: none;
+}
+
+.overlay-scrollbar:hover::-webkit-scrollbar {
+  display: block;
+}
+
+.overlay-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10rem;
+  border: 1px solid $main-bg-color;
+}
+
+.overlay-scrollbar::-webkit-scrollbar-track-piece:start,
+.overlay-scrollbar::-webkit-scrollbar-track-piece:end {
+  background-color: transparent;
+}

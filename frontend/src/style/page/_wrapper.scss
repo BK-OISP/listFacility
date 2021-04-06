@@ -1,0 +1,61 @@
+.wrapper {
+  padding: 10px;
+  margin-left: 82px; //250px - 82px
+  padding-top: 90px;
+  background: $second-bg-color;
+  // transition: all 0.3s ease-in-out;
+  // transition: all 0.1;
+  min-height: 100vh;
+  color: $main-color;
+}
+
+.bg-primary {
+  background: $primary-color !important;
+}
+
+.bg-success {
+  background: $success-color !important;
+}
+
+.bg-warning {
+  background: $warning-color !important;
+}
+
+.bg-danger {
+  background: $danger-color !important;
+}
+
+.icon-primary {
+  color: $primary-color !important;
+}
+
+.icon-success {
+  color: $success-color !important;
+}
+
+.icon-warning {
+  color: $warning-color !important;
+}
+
+.icon-danger {
+  color: $danger-color !important;
+}
+
+.icon-refuse {
+  color: $refuse-color !important;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: $success-color !important;
+  border: $success-color !important;
+  &:hover {
+    background-color: #6ab04cb0 !important;
+    border-color: #6ab04cb0 !important;
+  }
+}
+
+.form-control:focus {
+  border-color: #2684ff;
+  box-shadow: 0 0 0 1px #2684ff;
+}
